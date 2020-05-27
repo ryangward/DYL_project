@@ -1,0 +1,66 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+	margin-top: 10px;
+	text-align: center;
+	margin: 0 auto;
+}
+.header {
+	background-color: hsla(351, 0%, 70%, 0.54);
+	color: #4bc6c2;
+	margin-bottom: 30px;
+	width: 100%;
+	text-shadow: 2px 1px #ffffff
+}
+h1 {
+	padding: 30px;
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 20px auto;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  width: 50%;
+
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+#about-the-book {
+	padding-bottom: 40px;
+}
+#gauges {
+	
+}
+#buy-the-book {
+	
+}
+#nav-links {
+	color: #4bc6c2;
+	font-size: 1.25rem;
+	text-shadow: 2px 1px #ffffff;
+}
+#book-img {
+	width: 80%;
+	height: auto;
+
+
+}
+.footer {
+	background-color: hsla(351, 0%, 70%, 0.54);
+	overflow: hidden
+	width: 100%;
+
+}
+
